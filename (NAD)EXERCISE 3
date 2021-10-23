@@ -1,0 +1,57 @@
+package module_week3;
+
+public class Third {
+	//(23oct2021)
+  //naddyel
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Formatting output
+		//floating point value
+		//%wd -output integer with width of w
+		//w.pf -output double value with eidth of w including the decimal point and p digits after the decimal point
+		
+		System.out.printf("%.2f %n", 1.22);
+		System.out.printf("%10.3f %n", 1.22);
+		//number before the point is the width
+		//number after a point is decimal point
+		
+		System.out.printf("%5d %n", 20);
+		System.out.printf("%s %n", "weight");
+		//every string should have this""
+		System.out.printf("%5c %n", 'y');
+		System.out.printf("%.2b %n", null);
+		//number after a point for boolean is no.of.character shown
+		System.out.printf("%n %n");
+		//line seperator
+		System.out.printf("%e %n", 1.23e+1);
+		//exponential
+		
+		// - left justifies the converted value
+		// , 1include comma seperator for >=1000 val
+		// () for negative value
+		
+		System.out.printf("%-10s", "Total:");
+		//left justifies 
+		System.out.printf("%10.2f %n", 17.29);
+		System.out.printf("%-10s%10.2f%n","Total:", 17.20);
+		
+		System.out.println("2 and 5 concatenated:" + 2 + 5);
+		System.out.println("2 and 5 added:" +( 2 + 5));
+		//concatenated must have + no+no
+		//added must have +(no+no)
+		
+		System.out.println("x: "+25);
+		System.out.println("x: "+(15+50));
+		System.out.println("x: "+300+50);
+		
+		System.out.println("I said \"Hello\" to you.\n");
+		//for two "" in one line use " \"string\""
+		
+		System.out.println("Roses are red, \n \t Violets are blue, \n Sugar is sweet, \n\t But I have \"commitment issues\" \t\tSo I'd rather just be friends \n\t At this point in our relationship.\n\n");
+		System.out.println("\"Thank you all for coming to my home tonight,\" he said mysteriously.");
+		
+
+	}
+
+}
