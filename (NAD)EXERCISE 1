@@ -1,0 +1,14 @@
+package module_week3;
+
+public class First {
+
+	public static void main(String[] args) {
+		//Numerical computation & expression
+		System.out.println("This is a string literal.");
+		System.out.println("123"+" Main Street");
+		System.out.println("X\n\n");
+		System.out.println("Whatever you are, be a good one.");
+
+	}
+
+}
